@@ -9,6 +9,7 @@
     font-family:sans-serif,Georgia,  Times, serif;
     background: linear-gradient(rgba(34, 33, 33, 0.8), rgba(0, 0, 0, 0.8)), url(smartphone-vintage-technology-music.jpg);
     height: 1695px;
+    width:2880px;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -124,6 +125,7 @@ nav ul li{
   background: /* linear-gradient(rgba(56, 55, 55, 0.8), rgba(34, 33, 33, 0.8) ),*/ url(2.jpeg);
   
   height: 1700px;
+  width:2880px;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -181,10 +183,12 @@ nav ul li{
 /* about page begins */
 
 #aboutpage1{
+
   font-family:sans-serif,Georgia,  Times, serif;
   background: linear-gradient(rgba(34, 33, 33, 0.8), rgba(0, 0, 0, 0.8)), url(purple.jpg);
   /* background-color: #FEDD8F; */
   height: 1900px;
+  width:2880px;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -226,6 +230,7 @@ nav ul li{
   background:linear-gradient(135deg, #0f1f5e, #30b4bb);
   /* background-color:#408ad7; */
   height: 1700px;
+  width:2880px;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -277,6 +282,7 @@ nav ul li{
   background: linear-gradient(rgba(34, 33, 33, 0.8), rgba(0, 0, 0, 0.8)),url(bluey\ perf.jpg);
    background-color: #FEDD8F; 
   height: 1306px;
+  width:2880px;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -311,6 +317,7 @@ nav ul li{
   font-family:sans-serif,Georgia,  Times, serif;
   background: linear-gradient(rgba(34, 33, 33, 0.8), rgba(0, 0, 0, 0.8)),url(about\ copy.jpg);
   height: 1100px;
+  width: 2880px;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -376,6 +383,7 @@ form{
 
 footer{
   height: 350px;
+  width:2880px;
   background-color: #000000;
   position:relative;
   font-size: 30px ;
