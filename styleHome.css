@@ -1,0 +1,436 @@
+*{      /*all elemnts have these properties*/
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box; /* border box shrinks to absorb extra border*/
+  }
+  header {
+    font-family:sans-serif,Georgia,  Times, serif;
+    background: linear-gradient(rgba(34, 33, 33, 0.8), rgba(0, 0, 0, 0.8)), url(smartphone-vintage-technology-music.jpg);
+    height: 1695px;
+    width:2880px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    /* bottom: 18px;  */
+    
+  } 
+
+ 
+  
+
+nav{  
+        background: #34c9ff;
+        height: 127px;
+        width: 100%;
+        position: relative;
+        bottom: 18px;
+      }
+      label.logo{
+        color: black;
+        font-size: 160px;
+        line-height: 120px;
+        padding: 0 25px;
+        font-weight: bold;
+      }   
+      #clubname{
+        position: relative;
+        bottom:27px;
+        font-size: 70px;
+        font-family:sans-serif ;
+
+      }
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 130px;
+    margin: 0 5px px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 48px;
+    padding: 7px 13px;
+    border-radius: 10px;
+    text-transform: uppercase;
+  }
+  a.nb:hover{
+    background: rgba(151, 210, 255, 0.9);
+    transition: .5s;
+    cursor: pointer;
+  }
+
+  .welcome-text {
+    position: absolute;
+    width: 1200px;
+    height: 600px;
+    margin: 20% 30%;
+    text-align: center;
+  }
+  .welcome-text h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 100px;
+    position:relative;
+    bottom:140px;
+  }
+/* 
+   .WTC{
+    position: relative;
+    animation-name: WTC;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    
+  }
+
+  @keyframes WTC{
+    from{
+      bottom : 70px;
+      font-size:100px;
+      
+    }
+    to {
+      bottom: 150px;
+      font-size:100px;
+      
+    }
+  } */
+  #Aequote{
+    position:relative;
+    bottom:25px;
+    text-align: center;
+    color: #34c9ff;
+    font-size: 50px;
+    font-weight: 200;
+    
+  }
+ #AE{
+   POSITION:relative;
+   top: 60px;
+   left:390px;
+   font-size: 38px;
+   color: #ffffff;
+   text-align: center;
+ }
+
+/* First page ends here */
+
+#intropage{
+  
+  background: /* linear-gradient(rgba(56, 55, 55, 0.8), rgba(34, 33, 33, 0.8) ),*/ url(2.jpeg);
+  
+  height: 1700px;
+  width:2880px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.intro-text{
+  position:relative;
+  left: 1940px;
+  top: 210px;
+  font-family:sans-serif,Georgia,  Times, serif;
+  width: 890px;
+  border: 8px solid #FEDD8F;
+  border-radius:15px ;
+  padding: 6px;
+  /* border-top-left-radius: 30px ; */
+  /* border-bottom-left-radius:30px ; */
+  box-sizing:border-box ;
+  text-align:center ;
+    color: #fff;
+    /* text-transform: uppercase;  */
+    font-size: 37px;
+    
+
+}
+
+
+ 
+#excitementtext{  position:relative;
+  left: 50px;
+  top: 845px;
+  /* font-family: 'Cookie', cursive; */
+  /* font-family: 'Amatic SC', cursive; */
+  /* font-family: 'Calligraffitti', cursive; */
+  /* font-family: 'Sacramento', cursive; */
+  width: 950px;
+  /* border: 8px solid #FEDD8F; */
+  border-radius:15px ;
+  padding: 6px;
+  /* border-top-left-radius: 30px ; */
+  /* border-bottom-left-radius:30px ; */
+  box-sizing:border-box ;
+  text-align:center ;
+    color: #fff;
+    /* text-transform: uppercase; */
+    font-size: 35px;
+
+}
+
+
+
+/* 2nd page ends here  */
+
+
+/* about page begins */
+
+#aboutpage1{
+
+  font-family:sans-serif,Georgia,  Times, serif;
+  background: linear-gradient(rgba(34, 33, 33, 0.8), rgba(0, 0, 0, 0.8)), url(purple.jpg);
+  /* background-color: #FEDD8F; */
+  height: 1900px;
+  width:2880px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+#about-text{ 
+  position:relative;
+  left: 120px;
+  top: 239px;
+  font-family: 'Roboto', sans-serif;
+  width: 2640px;
+  border: 8px solid #408ad7;
+  border-radius:100px ;
+  padding-left: 15px;
+  padding-right: 15px;padding-top: 0px;
+  padding-bottom: 93px;
+  /* border-top-left-radius: 30px ; */
+  /* border-bottom-left-radius:30px ; */
+  box-sizing:border-box ;
+  text-align:center ;
+    color: white;
+    font-weight:300;
+    font-size: 80px;
+}
+
+#treble-clef{
+  font-size: 160px;
+  position: relative;
+  top:24px;
+}
+    
+/* Image gallery starts here */
+
+
+#aboutpage2{
+  font-family:sans-serif,Georgia,  Times, serif;
+  /* background: linear-gradient(rgba(34, 33, 33, 0.8), rgba(0, 0, 0, 0.8)), url(college.png); */
+  background:linear-gradient(135deg, #0f1f5e, #30b4bb);
+  /* background-color:#408ad7; */
+  height: 1700px;
+  width:2880px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+#gallery{
+  text-align: center;
+  font-size: 150px;
+  position: relative;
+  top:20px;
+  color: #fff;
+  font-family:  'Cookie', cursive;
+  font-weight: 100;
+
+
+}
+
+.img{
+    display:block;
+    float:left;
+    width: 28%;
+    position: relative;
+    left:40px;
+    top:50px;
+    margin-left: 96px;
+    margin-bottom:100px;
+    
+  
+}
+
+.images{  
+  width:800px;
+  height:534px;
+ 
+  
+}
+
+.images:hover{
+  transform: scale(1.2,1.2);
+  transition: .3s transform;
+
+}
+
+/* Gallery ends here */
+
+#events-page{
+  font-family:sans-serif,Georgia,  Times, serif;
+  background: linear-gradient(rgba(34, 33, 33, 0.8), rgba(0, 0, 0, 0.8)),url(bluey\ perf.jpg);
+   background-color: #FEDD8F; 
+  height: 1306px;
+  width:2880px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+#event-text{ 
+  position:relative;
+  left: 305px;
+  top: 207px;
+  font-family: 'Roboto', sans-serif;
+  width: 2270px;
+  border: 8px solid rgba(17, 131, 186, 0.88);
+  border-radius:100px ;
+  padding-left: 15px;
+  padding-right: 15px;padding-top: 15px;
+  padding-bottom: 15px;
+  /* border-top-left-radius: 30px ;  */
+   /* border-bottom-left-radius:30px ; */
+  box-sizing:border-box ;
+  text-align:center ;
+    color: rgba(255, 255, 255, 0.82);
+    font-weight:300;
+    
+    font-size: 80px;
+}
+
+
+
+
+  /* Contact form starts here */
+#contact-us{
+  font-family:sans-serif,Georgia,  Times, serif;
+  background: linear-gradient(rgba(34, 33, 33, 0.8), rgba(0, 0, 0, 0.8)),url(about\ copy.jpg);
+  height: 1100px;
+  width: 2880px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+#ctitle{
+  
+  text-align: center;
+  color:rgb(255, 255, 255);
+  position: relative;
+  top:100px ;
+  
+}
+
+#firstline{
+  font-size: 130px;
+}
+
+#secondline{
+  font-size: 80px ;
+}
+
+form{
+  position: relative;
+  top:200px;
+  text-align: center;
+  
+  
+}
+.inputs{
+  width:1000px;
+  height:70px;
+  background: transparent;
+  border-color: black;
+  outline: none;
+  margin: 20px;
+  font-size: 40px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+
+#submit{
+  background-color: rgb(36, 70, 8);
+  color: #fff;
+  border-color: transparent;
+  font-size: 50px;
+  margin-top: 55px  ;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height:70px;
+  width:500px;
+}
+
+#submit:hover{
+  transform: scale(1.1,1.1);
+  transition: .3s transform;
+  background-color: rgb(74, 153, 42);
+  cursor: pointer;
+
+}
+
+footer{
+  height: 350px;
+  width:2880px;
+  background-color: #000000;
+  position:relative;
+  font-size: 30px ;
+  
+}
+.footer-links{
+  position:relative;
+  left:350px;
+  top:70px;
+  color:#ffffff;
+}
+#navigate{
+  font-size: 40px;
+  color:#ffffff ;
+  position: relative;
+  top:50px;
+  left:350px;
+  font-weight: 500;
+}
+#find-us{
+  position: absolute;
+  left: 200px;
+  top :50px;
+  font-size: 40px;
+  color:#ffffff ;
+  top:51px;
+  left:550px;
+  font-weight: 500;
+  
+}
+.social-media{
+  position:relative;
+  left:550px;
+  bottom:100px;
+  color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
